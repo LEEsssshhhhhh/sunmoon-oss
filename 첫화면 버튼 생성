@@ -1,0 +1,8 @@
+<Button
+        android:text="Button"
+        android:background="#00ff0000" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/da"
+        android:id="@+id/button"
+        android:layout_below="@+id/imageView2" />
