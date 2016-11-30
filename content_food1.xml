@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/KakaoTalk_20161128_123649357"
+        android:id="@+id/imageView"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:text="금액 :3000원 부터 5000원까지
+ 영업 시간: 오전 10시 부터 오후 4시까지
+ ps. 중식이 인기 많음! 식권 구매시 당일 사용, 환불불가! 매진있음!!"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="0.07" />
+</LinearLayout>
